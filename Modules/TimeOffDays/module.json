@@ -1,0 +1,15 @@
+{
+    "name": "TimeOffDays",
+    "alias": "timeoffdays",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\TimeOffDays\\Providers\\TimeOffDaysServiceProvider",
+        "Modules\\TimeOffDays\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,15 @@
+#m_login_signin_submit {
+    background: #fbb71c;
+    border: 1px solid #fbb71c;
+}
+.m--form-login-new:focus{
+    border-color: #fbb71c;
+    color: #fbb71c !important;
+}
+
+.m-brand.m-brand--skin-light , .m-aside-left.m-aside-left--skin-light , #m_ver_menu {
+    background: #fbb71c !important;
+}
+#m_ver_menu .m-menu__item--submenu:hover {
+    background: red !important;
+}

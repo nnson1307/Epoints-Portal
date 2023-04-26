@@ -1,0 +1,17 @@
+{
+    "name": "Config",
+    "alias": "config",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Config\\Providers\\ConfigServiceProvider",
+        "Modules\\Config\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

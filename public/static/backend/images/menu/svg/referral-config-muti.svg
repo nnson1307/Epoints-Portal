@@ -1,0 +1,19 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="42" width="42" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_1" d="m11.646301,22.926379l-7.404244,0c-1.742175,0 -3.121397,-1.379222 -3.121397,-3.121397l0,0c0,-1.742175 1.379222,-3.121397 3.121397,-3.121397l3.266578,0" class="st0"/>
+  <path stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_2" d="m9.8579,16.573695l25.374618,0c1.730088,0 3.09974,1.369653 3.09974,3.09974l0,0c0,1.730088 -1.369653,3.09974 -3.09974,3.09974l-20.616877,0" class="st0"/>
+  <path stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_3" d="m38.418458,5.268601l0,0c0,1.692748 -1.340092,3.03284 -3.03284,3.03284l-31.033707,0c-1.692748,0 -3.03284,-1.340092 -3.03284,-3.03284l0,0c0,-1.692748 1.340092,-3.03284 3.03284,-3.03284l22.00572,0" class="st0"/>
+  <path stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_4" d="m37.351306,2.26708c0.695238,0.811111 1.15873,1.969841 1.15873,3.128571" class="st0"/>
+  <line stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_5" y2="2.355603" y1="2.355603" x2="36.474994" x1="26.66547" class="st0"/>
+  <path stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_6" d="m24.861674,31.563163l10.499589,0c1.679934,0 3.009882,1.329948 3.009882,3.009882l0,0c0,1.679934 -1.329948,3.009882 -3.009882,3.009882l-30.798796,0c-1.679934,0 -3.009882,-1.329948 -3.009882,-3.009882l0,0c0,-1.679934 1.329948,-3.009882 3.009882,-3.009882l16.659349,0" class="st0"/>
+  <circle stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_7" r="3.039316" cy="5.215554" cx="12.931404" class="st0"/>
+  <circle stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_8" r="2.882173" cy="19.426809" cx="25.354725" class="st0"/>
+  <circle stroke="#787878" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" id="svg_9" r="2.889009" cy="34.396604" cx="11.920107" class="st0"/>
+ </g>
+</svg>

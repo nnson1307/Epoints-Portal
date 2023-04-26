@@ -1,0 +1,17 @@
+{
+    "name": "Dashbroad",
+    "alias": "dashbroad",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Dashbroad\\Providers\\DashbroadServiceProvider",
+        "Modules\\Dashbroad\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

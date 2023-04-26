@@ -1,0 +1,17 @@
+{
+    "name": "SyncDataGoogleSheet",
+    "alias": "SyncDataGoogleSheet",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SyncDataGoogleSheet\\Providers\\SyncDataGoogleSheetServiceProvider",
+        "Modules\\SyncDataGoogleSheet\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

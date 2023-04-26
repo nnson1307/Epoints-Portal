@@ -1,0 +1,5 @@
+var General={
+  search:function () {
+
+  }
+};

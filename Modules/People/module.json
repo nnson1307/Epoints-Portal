@@ -1,0 +1,17 @@
+{
+    "name": "People",
+    "alias": "people",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\People\\Providers\\PeopleServiceProvider",
+        "Modules\\People\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

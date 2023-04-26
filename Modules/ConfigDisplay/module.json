@@ -1,0 +1,17 @@
+{
+    "name": "ConfigDisplay",
+    "alias": "config-display",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ConfigDisplay\\Providers\\ConfigDisplayServiceProvider",
+        "Modules\\ConfigDisplay\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

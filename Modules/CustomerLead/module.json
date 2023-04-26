@@ -1,0 +1,17 @@
+{
+    "name": "CustomerLead",
+    "alias": "customerlead",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CustomerLead\\Providers\\CustomerLeadServiceProvider",
+        "Modules\\CustomerLead\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

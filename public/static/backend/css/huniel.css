@@ -1,0 +1,101 @@
+.hu-first-uppercase:first-letter,
+.hu-first-uppercase *:first-letter {
+    text-transform: uppercase;
+}
+.hu-first-uppercase *:first-letter{
+    text-transform:uppercase;
+}
+.hu-disabled{
+    cursor: not-allowed;
+    background-color: #f4f5f8;
+    color: #9E9999;
+    pointer-events: none;
+}
+.modal{
+    overflow:auto!important;
+}
+.hu-modal-xl{
+    max-width: 1200px;
+}
+table.hu-table-input>tbody>tr:nth-child(1) {
+    display: none;
+}
+
+.table-timekeeping .staff-info{
+    min-width:150px;
+}
+.table-timekeeping th{
+    position:relative;
+    text-align: center;
+    vertical-align: middle !important;
+    white-space: normal;
+}
+.table-timekeeping th .sort-up{
+    width: 100%;
+    font-size: 17px;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    height: 9px;
+}
+.table-timekeeping th .sort-down{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 17px;
+    cursor: pointer;
+    z-index: 0;
+}
+.table-timekeeping .staff-info .name img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.table-timekeeping .staff-info .name span{
+    font-weight: 700;
+    color: gray;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.table-timekeeping .staff-info .branch,
+.table-timekeeping .staff-info .position,
+.table-timekeeping .staff-info .position{
+    min-width: 50%;
+    max-width: 100%;
+    float: left;
+    margin-top: 5px;
+    color: darkgray;
+    width: inherit;
+}
+.table-timekeeping .staff-info .branch span,
+.table-timekeeping .staff-info .position span,
+.table-timekeeping .staff-info .position span{
+    font-size: 10px;
+}
+.table-timekeeping .staff-info .branch i,
+.table-timekeeping .staff-info .position i,
+.table-timekeeping .staff-info .position i{
+    font-size: 9px;
+}
+.m-portlet__head .col{
+    padding: 0px 5px;
+}
+.m-portlet__head .col .btn{
+    text-transform: uppercase;
+}
+.table-timekeeping td{
+    vertical-align: middle;
+    height: 80px;
+    text-align: center;
+}
+.modal{
+    overflow:auto!important;
+}
+.hu-modal-xl{
+    max-width: 1200px;
+}
+table.hu-table-input>tbody>tr:nth-child(1){
+    display:none;
+}

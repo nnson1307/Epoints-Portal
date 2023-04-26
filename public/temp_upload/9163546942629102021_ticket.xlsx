@@ -1,0 +1,33 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Sheet0</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr style=''><td>#</td><td>Loại công việc</td><td>Tiêu đề</td><td>Trạng thái</td><td>Tiến độ</td><td>Người thực hiện</td><td>Ngày cập nhật</td><td>Ngày hết hạn</td><td></td></tr><tr style=''><td>
+                                                                    1                                                            </td><td>
+                                                                    
+    Gọi điện
+                                                            </td><td>
+                                                                    Tên công việc                                                            </td><td>
+                                                                    Chưa thực hiện                                                            </td><td>
+                                                                    <div class="progress">
+    <div class="progress-bar bg-warning progress-bar-striped" style="width:90%">90%</div>
+  </div>                                                            </td><td>
+                                                                    Nguyễn Thị Phương Linh                                                            </td><td>
+                                                                    18/10/2021 17:19                                                            </td><td>
+                                                                    18/10/2021 17:19                                                            </td><td>
+                                                                                                            
+                                            <i class="la la-edit"></i>
+                                        
+                                                                                                </td></tr><tr style=''><td>
+                                                                    2                                                            </td><td>
+                                                                    
+    Gọi điện
+                                                            </td><td>
+                                                                    Tên công việc                                                            </td><td>
+                                                                    Chưa thực hiện                                                            </td><td>
+                                                                    <div class="progress">
+    <div class="progress-bar bg-warning progress-bar-striped" style="width:30%">30%</div>
+  </div>                                                            </td><td>
+                                                                    Nguyễn Thị Phương Linh                                                            </td><td>
+                                                                    18/10/2021 17:19                                                            </td><td>
+                                                                    18/10/2021 17:19                                                            </td><td>
+                                                                                                            
+                                            <i class="la la-edit"></i>
+                                        
+                                                                                                </td></tr></table></body></html>

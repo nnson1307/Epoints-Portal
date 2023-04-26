@@ -1,0 +1,17 @@
+{
+    "name": "ChatHub",
+    "alias": "chathub",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ChatHub\\Providers\\ChatHubServiceProvider",
+        "Modules\\ChatHub\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Estimate",
+    "alias": "estimate",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Estimate\\Providers\\EstimateServiceProvider",
+        "Modules\\Estimate\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

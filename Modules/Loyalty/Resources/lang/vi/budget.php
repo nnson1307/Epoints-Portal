@@ -1,0 +1,42 @@
+<?php
+return [
+    'index' => [
+        'list_budget' => 'Danh sách ngân sách',
+        'code' => 'Code',
+        'description' => 'Mô tả',
+        'status' => 'Trạng thái',
+        'type_budget' => 'Loại ngân sách',
+        'source_budget' => 'Nguồn tính ngân sách',
+        'create_time' => 'Thời gian tạo',
+        'action' => 'Hành động',
+        'hold' => 'Bản nháp',
+        'released' => 'Đã duyệt',
+        'rejected' => 'Từ chối',
+        'point' => 'Điểm',
+        'promotion_times' => 'Lần khuyến mãi',
+        'money' => 'Tiền',
+        'bonbon shop' => 'bonbon shop',
+        'dms' => 'DMS',
+        'add_budget' => 'Tạo ngân sách',
+        'info_reference' => 'Thông tin tham chiếu',
+        'total_budget' => 'Ngân sách tổng',
+        'not_apply' => 'Không áp dụng ngân sách tổng và chỉ áp dụng ngân sách chi tiết theo đối tượng',
+        'apply' => 'Áp dụng ngân sách tổng và ngân sách chi tiết',
+        'budget' => 'Ngân sách',
+        'reference_code' => 'Reference code',
+        'io_number' => 'IO number',
+        'object_apply' => 'Đối tượng áp dụng',
+        'limit_object' => 'Giới hạn chung mỗi đối tượng',
+        'apply_general' => 'Áp dụng chung',
+        'no_apply_general' => 'Không áp dụng chung',
+        'limit' => 'Giới hạn',
+        'y_limit' => 'Y - Giới hạn',
+        'n_limit' => 'N - Không giới hạn',
+        'limit_budget' => 'Giới hạn ngân sách chi tiết theo đối tượng'
+    ],
+    'button' => [
+        'add_new' => 'Tạo mới',
+        'save' => 'Lưu',
+        'cancel' => 'Hủy'
+    ],
+];

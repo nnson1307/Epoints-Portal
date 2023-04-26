@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SanFranciscoDisplayLight';
+    src: url('fonts/SanFranciscoDisplayLight.eot');
+    src: url('fonts/SanFranciscoDisplayLight.eot') format('embedded-opentype'),
+         url('fonts/SanFranciscoDisplayLight.woff2') format('woff2'),
+         url('fonts/SanFranciscoDisplayLight.woff') format('woff'),
+         url('fonts/SanFranciscoDisplayLight.ttf') format('truetype'),
+         url('fonts/SanFranciscoDisplayLight.svg#SanFranciscoDisplayLight') format('svg');
+}

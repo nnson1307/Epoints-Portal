@@ -1,0 +1,113 @@
+.direct-chat-msg {
+    width: 50%!important;
+    width: fit-content
+}
+
+.right {
+    width: fit-content;
+    width: 50%!important;
+    margin-left: auto!important
+}
+
+.right .direct-chat-text {
+    width: fit-content;
+    margin-left: auto
+}
+
+.direct-chat-text {
+    width: fit-content
+}
+
+.control-sidebar-menu {
+    list-style: none;
+    padding-left: 14px!important;
+    padding-right: 14px!important
+}
+
+.direct-chat-messages {
+    min-height: 450px
+}
+
+.control-sidebar-menu .menu-info p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.kt-content {
+    padding: 0
+}
+
+.kt-userpic--circle img {
+    border-radius: 50%
+}
+
+.kt-widget__item .kt-userpic img {
+    width: 43px
+}
+
+.kt-widget__info {
+    width: 55%
+}
+
+.kt-widget__action {
+    width: 45%
+}
+
+.popover-body {
+    background-color: #5096ff;
+    color: #FFF
+}
+
+.tr-customer {
+    border-bottom: 1px solid #0000001c
+}
+
+#main-icon {
+    font-size: 35px;
+    font-weight: 700
+}
+
+.fc-title {
+    color: #fff!important
+}
+
+th.fc-day-header>span {
+    color: #2b85e2!important
+}
+
+.message-file {
+    height: 70px!important;
+    width: 70px!important
+}
+
+.padding-top-15 {
+    padding-top: 15px
+}
+
+.fix-class-pagination {
+    width: auto;
+    display: inline-flex
+}
+
+.div-fix-pagination {
+    width: max-content
+}
+
+#conversation-list .new-message .kt-widget__username,
+#conversation-list .new-message .kt-widget__desc,
+#conversation-list .new-message .kt-widget__section {font-weight: 600 !important}
+#conversation-list .kt-widget__item {cursor: pointer}
+#conversation-list .kt-widget__item:hover {background: #f5f6f7}
+.kt-chat__messages .message-image {
+    box-shadow: inset 0 0 0 1px #e5e5e5;
+    border-radius: 1.3rem;
+    width: 240px;
+    height: 240px;
+    border: 1.3rem;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.kt-chat__messages .kt-chat__text { border-radius: 10px}

@@ -1,0 +1,90 @@
+.m-widget4 .m-widget4__item {
+    display: table !important;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important
+}
+
+.center-text {
+    text-align: center !important;
+    margin: 0 auto !important;
+    width: 100%;
+     !important;
+    display: block !important;
+    cursor: pointer !important
+}
+
+.m-btn--icon>span {
+    margin: 0 auto !important
+}
+
+.vanglai {
+    min-height: 12px !important;
+    min-width: 12px !important;
+    margin-bottom: 3px !important;
+    background-color: #34bfa3 !important
+}
+
+.m-demo .m-demo__preview {
+    background: #fff;
+    border: 2px solid #f7f7fa;
+    padding: 30px
+}
+
+.info-box {
+    display: block;
+    min-height: 120px;
+    max-width: 120px;
+    background: #fff;
+    border-radius: 1px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid #4fc4ca;
+    cursor: pointer
+}
+
+.info-box-content {
+    padding: 0px !important
+}
+
+.info-box-text {
+    font-size: 1rem !important;
+    font-weight: 400 !important
+}
+
+.info-box-number {
+    display: block;
+    font-weight: 500;
+    font-size: 15px
+}
+
+.nav-link.active.show {
+    background-color: #0067AC !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important
+}
+
+.vanglai {
+    min-height: 12px !important;
+    min-width: 12px !important;
+    margin-bottom: 3px !important;
+    background-color: #34bfa3 !important
+}
+
+.bdr {
+    border-right: 1px dashed #e0e0e0 !important
+}
+
+.ss--text-center {
+    text-align: center !important
+}
+
+.ss--image-pos {
+    max-height: 70px !important;
+    max-width: 70px !important
+}
+
+.order_tt {
+    width: 100% !important;
+    margin: 0 auto !important
+}

@@ -1,0 +1,17 @@
+{
+    "name": "CallCenter",
+    "alias": "callcenter",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CallCenter\\Providers\\CallCenterServiceProvider",
+        "Modules\\CallCenter\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

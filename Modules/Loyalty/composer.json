@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/loyalty",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Loyalty\\Providers\\LoyaltyServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Loyalty\\": ""
+        }
+    }
+}

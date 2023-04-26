@@ -1,0 +1,21 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <rect y="289.81766" x="-1.100846" width="7.920719" id="rect2504" height="7.034672"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="42" width="42" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="path1235" d="m18.938054,0.606158l0,3.293198l-5.751464,0l0,3.755477l-3.06026,0l0,11.689245l-2.719862,0l0,-3.698123l-1.834732,0l0,3.698123l-4.25357,0l0,20.106814l8.808165,0l1.83831,0l4.328813,0l6.890998,0l6.167141,0l9.041084,0l0,-20.106814l-4.375415,0l0,-3.698123l-1.834732,0l0,3.698123l-2.830937,0l0,-11.689245l-3.293198,0l0,-3.755477l-5.285607,0l0,-3.293198l-1.834732,0zm-3.916732,5.12793l9.202339,0l0,1.920745l-9.202339,0l0,-1.920745zm-3.06026,3.759055l15.552219,0l0,28.119421l-4.328831,0l0,-6.815737l-6.890998,0l0,6.815737l-4.328813,0l0,-18.268486l-0.003669,0l0.000092,-9.850935zm-8.808165,11.689264l6.973433,0l0,16.430157l-6.973433,0l0,-16.430157zm26.198695,0l7.206352,0l0,16.430157l-7.206352,0l0,-16.430157zm-11.219811,11.45273l3.214359,0l0,4.977427l-3.214359,0l0,-4.977427z"/>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-width="1.04125" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="path1239" d="m15.138228,12.631196c0,1.976632 0,3.953263 0,5.929895c3.14043,0 6.280861,0 9.421273,0c0,-1.976632 0,-3.953263 0,-5.929895c-3.140412,0 -6.280842,0 -9.421273,0zm1.948461,1.948643c1.84145,0 3.6829,0 5.524351,0c0,0.678763 0,1.357507 0,2.036252c-1.84145,0 -3.6829,0 -5.524351,0c0,-0.678744 0,-1.357489 0,-2.036252z"/>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-width="1.04125" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="path1243" d="m15.186419,21.104993c0,1.946299 0,3.892597 0,5.838896c3.092238,0 6.184476,0 9.276695,0c0,-1.946299 0,-3.892597 0,-5.838896c-3.092219,0 -6.184457,0 -9.276695,0zm1.91856,1.915152c1.813192,0 3.626383,0 5.439575,0c0,0.668328 0,1.336675 0,2.005004c-1.813192,0 -3.626383,0 -5.439575,0c0,-0.668347 0,-1.336675 0,-2.005004z"/>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-width="1.04125px" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="path1544" d="m31.411326,28.461739c0,0.529945 0,1.059874 0,1.589819c1.0389,0 2.0778,0 3.116701,0c0,-0.529945 0,-1.059874 0,-1.589819c-1.0389,0 -2.0778,0 -3.116701,0z"/>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-width="1.04125px" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="path1548" d="m31.31494,25.853905c0,0.547357 0,1.094698 0,1.642055c1.071029,0 2.142057,0 3.213086,0c0,-0.547357 0,-1.094698 0,-1.642055c-1.071029,0 -2.142057,0 -3.213086,0z"/>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-width="1.04125px" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="path1552" d="m31.507711,31.260469c0,0.521735 0,1.043485 0,1.565236c1.022836,0 2.045672,0 3.068508,0c0,-0.52175 0,-1.043501 0,-1.565236c-1.022836,0 -2.045672,0 -3.068508,0z"/>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-width="1.04125px" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="svg_1" d="m4.905305,28.654511c0,0.52994 0,1.05987 0,1.58982c1.0389,0 2.0778,0 3.1167,0c0,-0.52995 0,-1.05988 0,-1.58982c-1.0389,0 -2.0778,0 -3.1167,0z"/>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-width="1.04125px" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="svg_2" d="m4.808915,26.046681c0,0.54735 0,1.09469 0,1.64205c1.07103,0 2.14206,0 3.21309,0c0,-0.54736 0,-1.0947 0,-1.64205c-1.07103,0 -2.14206,0 -3.21309,0z"/>
+  <path clip-rule="nonzero" fill="#787878" fill-rule="nonzero" stroke-width="1.04125px" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" id="svg_3" d="m5.001685,31.453241c0,0.52173 0,1.04348 0,1.56524c1.02284,0 2.04567,0 3.06851,0c0,-0.52176 0,-1.04351 0,-1.56524c-1.02284,0 -2.04567,0 -3.06851,0z"/>
+ </g>
+</svg>

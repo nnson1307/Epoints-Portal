@@ -1,0 +1,17 @@
+{
+    "name": "Loyalty",
+    "alias": "loyalty",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Loyalty\\Providers\\LoyaltyServiceProvider",
+        "Modules\\Loyalty\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

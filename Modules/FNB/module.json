@@ -1,0 +1,15 @@
+{
+    "name": "FNB",
+    "alias": "fnb",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\FNB\\Providers\\FNBServiceProvider",
+        "Modules\\FNB\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

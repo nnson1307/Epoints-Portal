@@ -1,0 +1,52 @@
+// Color Variables
+// Bootstrap Color Defaults
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+$blue: #00adef !default;
+$indigo: #6610f2 !default;
+$purple: #922cab !default;
+$pink: #e83e8c !default;
+$red: #ff6e6e !default;
+$orange: #f49873 !default;
+$yellow: #ffbf01 !default;
+$green: #63ba69 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$white: #fff !default;
+$gray: #646464 !default;
+$stronggray: #32384e !default;
+$stronggreen: #8ec63f !default;
+$strongpurple: #a286c0 !default;
+$black: #000 !default;
+
+$bodyBdg: #f7f6ed !default;
+$lightblue: #94d3fe !default;
+$lightpurple: #d7aafd !default;
+$lightorange: #f49873 !default;
+$lightgreen: #94cbce !default;
+$lightyellow: #f8e268 !default;
+
+$mainfontL: 'SanFranciscoDisplayLight' !default;
+$mainfont: 'SanFranciscoDisplayRegular' !default;
+$mainfontS: 'SanFranciscoDisplaySemibold' !default;
+$mainfontM: 'SanFranciscoDisplayMedium' !default;
+
+
+// Spacing Variables
+// Change below variable if the height of the navbar changes
+$navbar-base-height: 56px;
+// Change below variable to change the width of the sidenav
+$sidebar-base-width: 160px;
+// Change below variable to change the width of the sidenav when collapsed
+$sidebar-collapsed-width: 90px;
+// Change below variable to change the height of the sticky footer
+$sticky-footer-height: 80px;

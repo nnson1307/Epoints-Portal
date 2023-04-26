@@ -1,0 +1,17 @@
+{
+    "name": "ManagerWork",
+    "alias": "managerwork",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ManagerWork\\Providers\\ManagerWorkServiceProvider",
+        "Modules\\ManagerWork\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

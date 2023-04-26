@@ -1,0 +1,20 @@
+{
+    "Admin": true,
+    "Booking": true,
+    "BookingWeb": true,
+    "ChatHub": true,
+    "Customer": true,
+    "CustomerLead": true,
+    "Dashbroad": true,
+    "Delivery": true,
+    "Notification": true,
+    "Payment": true,
+    "Promotion": true,
+    "Report": true,
+    "Services": true,
+    "User": true,
+    "Warranty": true,
+    "OnCall": true,
+    "Ticket": true,
+    "ManagerWork": true
+}

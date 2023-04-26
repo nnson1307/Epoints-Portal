@@ -1,0 +1,234 @@
+.headerblock{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.block-title{
+    flex: 1;
+}
+
+.card{
+    overflow: inherit !important;
+}
+
+.dropdown{
+    margin-right: 15px;
+}
+
+.button-add-block{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.survey-sec{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#kt_content{
+    flex:1
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 370px; /* Set the width of the sidebar */
+    background-color:white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #e2e5ec;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+.card-header {
+    background-color: #fff;
+}
+.div-block {
+    border-bottom: 1px solid #e2e5ec;
+}
+.accordion .card .card-header .card-title.collapsed > i {
+    color: #a7abc3 !important;
+}
+.accordion .card .card-header .card-title > i {
+    color: #a7abc3 !important;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.drop-type{
+    /*margin: 15px 20px;*/
+}
+
+#button-add-list{
+    margin-top: 20px;
+}
+
+.list-group-item{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    padding: .75rem 1.25rem;
+    margin-bottom: 35px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.title-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-group{
+    margin-bottom: 20px;
+}
+
+.question-field{
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.divider{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.divider p{
+    margin:0px;
+}
+.divider-line{
+    background-color: black;
+    height: 1px;
+    flex: 1;
+    margin-left: 5px;margin-right: 5px;
+}
+
+.button-up-list{
+    width: 25px!important;
+    height: 25px!important;
+    position: absolute;
+    right: -13px;
+}
+
+.button-down-list{
+    width: 25px!important;height: 25px!important;
+    position: absolute;
+    bottom: 0px;
+    right: -13px;
+}
+
+.button-remove-list{
+    width: 25px!important;height: 25px!important;
+    position: absolute;
+    top: calc(50% - 13px);
+    right: -23px;
+}
+
+.button-edit-question{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.static-question{
+    display: flex;
+    flex-direction: row;
+}
+
+.static-1{
+    flex: 2;
+    background-color: #F2EDED!important;
+    padding: 10px 15px;
+}
+
+.static-2{
+    flex: 3;
+    border-left: 1px solid #818181;
+    border-bottom: 0.5px solid #818181;
+}
+
+.q-type{
+    border-top: 0.5px solid #818181;
+    border-bottom: none !important;
+}
+
+.btn-chose-types{
+    margin: 10px 15px;
+    cursor: pointer;
+}
+
+.gr-group-item{
+    flex: 1;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.accordion .card .card-body {
+    padding: 10px;
+    font-size: 1rem;
+}
+.background-color-e3f5ff {
+    background-color: #e3f5ff;
+}
+.btn-custom-answer {
+    position: unset !important;
+    background-color: #fff !important;
+    border: 2px solid #625e63 !important;
+    color: #625e63 !important;
+    width: 20px!important;
+    height: 20px!important;
+    right: -13px;
+}
+.btn-259b24 {
+    background-color: #259b24;
+    border-color: #259b24;
+    color: #ffffff;
+}
+.btn-259b24:hover {
+    background-color: #259b24;
+    border-color: #259b24;
+    color: #ffffff;
+}
+i.fa {
+    color: #ffffff !important;
+}
+i.fa.fa-pen {
+    color: #003d51 !important;
+}
+.icon-move {
+    color: #7f7e7e !important;
+}

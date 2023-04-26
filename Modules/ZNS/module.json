@@ -1,0 +1,17 @@
+{
+    "name": "ZNS",
+    "alias": "ZNS",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ZNS\\Providers\\ZNSServiceProvider",
+        "Modules\\ZNS\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

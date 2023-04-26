@@ -1,0 +1,42 @@
+<?php
+return [
+    'index' => [
+        'list_budget' => 'Budget list',
+        'code' => 'Code',
+        'description' => 'Description',
+        'status' => 'Status',
+        'type_budget' => 'Budget type',
+        'source_budget' => 'Source of budgeting',
+        'create_time' => 'Created at',
+        'action' => 'Action',
+        'hold' => 'New',
+        'released' => 'Released',
+        'rejected' => 'Rejected',
+        'point' => 'Point',
+        'promotion_times' => 'Promotion time',
+        'money' => 'Money',
+        'bonbon shop' => 'bonbon shop',
+        'dms' => 'DMS',
+        'add_budget' => 'Create budget',
+        'info_reference' => 'Reference information',
+        'total_budget' => 'Total budget',
+        'not_apply' => 'Do not apply total budget and only detailed budget by object',
+        'apply' => 'Apply total budget and detailed budget',
+        'budget' => 'Budget',
+        'reference_code' => 'Reference code',
+        'io_number' => 'IO number',
+        'object_apply' => 'Subjects of application',
+        'limit_object' => 'General limit per object',
+        'apply_general' => 'General application',
+        'no_apply_general' => 'Not applicable in general',
+        'limit' => 'Limit',
+        'y_limit' => 'Y - Limit',
+        'n_limit' => 'N - Unlimited',
+        'limit_budget' => 'Detailed budget limits by audience'
+    ],
+    'button' => [
+        'add_new' => 'Create',
+        'save' => 'Save',
+        'cancel' => 'Cancel'
+    ],
+];

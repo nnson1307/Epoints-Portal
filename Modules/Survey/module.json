@@ -1,0 +1,17 @@
+{
+    "name": "Survey",
+    "alias": "survey",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Survey\\Providers\\SurveyServiceProvider",
+        "Modules\\Survey\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

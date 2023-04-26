@@ -1,0 +1,204 @@
+.pointer-events{
+    pointer-events: none;
+    background: #f4f5f8;
+}
+
+.input-month:after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: 'tháng';
+    border-left: 1px solid black;
+    padding: 0 7px;
+    padding-right: 4em;
+}
+
+.input-currency {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-currency:after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: 'VND';
+    border-left: 1px solid black;
+    padding: 0 7px;
+    padding-right: 4em;
+}
+
+.m-select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+.input-percent:after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '%';
+    border-left: 1px solid black;
+    padding: 0 7px;
+    padding-right: 4em;
+}
+
+.nav-link.active {
+    background-color: #0067AC !important;
+    color: #ffffff !important;
+}
+
+.card-header{
+    background-color: #fff !important;
+    border-bottom: 1px solid #ccc !important;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.filter-block {
+    background-color: #E6F9FB !important;
+}
+
+.nexttab {
+    background-color: #0067AC;
+    color: white;
+}
+
+.prevent-events{
+    pointer-events: none;
+}
+
+.quotetag {
+    border-bottom: 1px dotted #000000; color: #000000; outline: none; text-decoration: none;
+    position: relative;
+}
+
+.quotetag span.classic {
+    margin-left: -999em;
+    position: absolute;
+}
+
+.quotetag:hover span.classic{
+    border-radius: 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 1em; top: 2em; z-index: 99;
+    margin-left: 0; width: 250px;
+}
+
+.quotetag:hover img {
+    border: 0; margin: -10px 0 0 -55px;
+    float: left; position: absolute;
+}
+
+.quotetag:hover em {
+    font-size: 1.2em; font-weight: bold;
+    display: block; padding: 0.2em 0 0.6em 0;
+}
+
+.classic {
+    padding: 10px !important;
+    background-color: #FFF3CD;
+    width: 460px !important;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.quotetag:hover span.lf-classic{
+    border-radius: 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 1em; top: 2em; z-index: 99;
+    margin-left: 0; width: 250px;
+    display: block;
+}
+
+.lf-classic {
+    padding: 10px !important;
+    background-color: #FFF3CD;
+    width: 460px !important;
+    right: 0 !important;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    font-weight: normal !important;
+}
+
+.custom { padding: 0.5em 0.8em 0.8em 2em; }
+* html a:hover { background: transparent; }
+.classic {background: #FFFFAA; border: 1px solid #FFAD33; }
+
+
+/**
+* --------------------KPI CSS---------------------------------------------
+*/
+
+/*---------------FORM EDIT KPI CRITERIA------------*/
+.modal-row {
+    padding: 10px;
+}
+
+.radio-row {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+/*---------------KPI NOTE------------*/
+
+
+/*---------------FORM ADD KPI NOTE------------*/
+#criteria-table th, #criteria-table td {
+    border: 1px solid #888;
+}
+
+label {
+    color: #575962 !important;
+}
+
+.total-kpi {
+    background-color: #f8a1a1 !important;
+    border: 1px solid red;
+    color: red;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.total-kpi-success {
+    background-color: #a7ffb6 !important;
+    border: 1px solid rgb(52, 194, 52);
+    color: rgb(52, 194, 52);
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.percent-label-input:after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '%';
+    border-left: 1px solid black;
+    padding: 0 7px;
+}
+
+/*-----------------DETAIL NOTE----------------*/
+.kpi_calculate_value {
+    border: none;
+}

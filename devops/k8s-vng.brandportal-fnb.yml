@@ -1,0 +1,196 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: brandportal-fnb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: brandportal-fnb
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 5
+  template:
+    metadata:
+      labels:
+        app: brandportal-fnb
+    spec:
+      containers:
+        - name: brandportal-fnb
+          image: <<CR_URL>>/brandportal-fnb:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+                cpu: "#{pod_cpu_request}#"
+            limits:
+                cpu: "#{pod_cpu_limit}#"
+          env:
+            - name: PHP_MEM_LIMIT
+              value: "200MB"
+            - name: PHP_POST_MAX_SIZE
+              value: "200MB"
+            - name: PHP_UPLOAD_MAX_FILESIZE
+              value: "200MB"
+            - name: APP_ENV
+              value: "#{app_env}#"
+            - name: APP_NAME
+              value: "#{app_name}#"
+            - name: APP_KEY
+              value: "#{app_key}#"
+            - name: APP_DEBUG
+              value: "#{app_debug}#"
+            - name: APP_LOG_LEVEL
+              value: "#{app_log_level}#"
+            - name: APP_URL
+              value: "#{app_url}#"
+            - name: DB_CONNECTION
+              value: "#{db_connection}#"
+            - name: DB_HOST
+              value: "#{db_host}#"
+            - name: DB_PORT
+              value: "#{db_port}#"
+            - name: DB_DATABASE
+              value: "#{db_database}#"
+            - name: DB_USERNAME
+              value: "#{db_username}#"
+            - name: DB_PASSWORD
+              value: "#{db_password}#"
+            - name: DB_CONNECTION_2
+              value: "#{db_connection_2}#"
+            - name: DB_HOST_2
+              value: "#{db_host_2}#"
+            - name: DB_PORT_2
+              value: "#{db_port_2}#"
+            - name: DB_DATABASE_2
+              value: "#{db_database_2}#"
+            - name: DB_USERNAME_2
+              value: "#{db_username_2}#"
+            - name: DB_PASSWORD_2
+              value: "#{db_password_2}#"
+            - name: BROADCAST_DRIVER
+              value: "#{broadcast_driver}#"
+            - name: CACHE_DRIVER
+              value: "#{cache_driver}#"
+            - name: SESSION_DRIVER
+              value: "#{session_driver}#"
+            - name: SESSION_LIFETIME
+              value: "#{session_lifetime}#"
+            - name: QUEUE_DRIVER
+              value: "#{queue_driver}#"
+            - name: QUEUE_CONNECTION
+              value: "#{queue_connection}#"
+            - name: REDIS_HOST
+              value: "#{redis_host}#"
+            - name: REDIS_PASSWORD
+              value: "#{redis_password}#"
+            - name: REDIS_PORT
+              value: "#{redis_port}#"
+            - name: MAIL_DRIVER
+              value: "#{mail_driver}#"
+            - name: MAIL_HOST
+              value: "#{mail_host}#"
+            - name: MAIL_PORT
+              value: "#{mail_port}#"
+            - name: MAIL_USERNAME
+              value: "#{mail_username}#"
+            - name: MAIL_PASSWORD
+              value: "#{mail_password}#"
+            - name: MAIL_ENCRYPTION
+              value: "#{mail_encryption}#"
+            - name: PUSHER_APP_ID
+              value: "#{pusher_app_id}#"
+            - name: PUSHER_APP_KEY
+              value: "#{pusher_app_key}#"
+            - name: PUSHER_APP_SECRET
+              value: "#{pusher_app_secret}#"
+            - name: PUSHER_APP_CLUSTER
+              value: "#{pusher_app_cluter}#"
+            - name: LOYALTY_API_URL
+              value: "#{loyalty_api_url}#"
+            - name: FACEBOOK_APP_ID
+              value: "#{facebook_app_id}#"
+            - name: FACEBOOK_APP_SECRET
+              value: "#{facebook_app_secret}#"
+            - name: FACEBOOK_APP_CALLBACK_URL
+              value: "#{facebook_app_callback_url}#"
+            - name: AWS_ACCESS_KEY_ID
+              value: "#{aws_access_key_id}#"
+            - name: AWS_SECRET_ACCESS_KEY
+              value: "#{aws_secret_access_key}#"
+            - name: AWS_DEFAULT_REGION
+              value: "#{aws_default_region}#"
+            - name: AWS_BUCKET
+              value: "#{aws_bucket}#"
+            - name: STORAGE_TYPE
+              value: "#{storage_type}#"
+            - name: OP_SECRET
+              value: "#{op_secret}#"
+            - name: OP_SALT
+              value: "#{op_salt}#"
+            - name: DOMAIN_PIOSPA
+              value: "#{domain_piospa}#"
+            - name: STORAGE_UPLOAD_PREFIX
+              value: "#{storage_upload_prefix}#"
+            - name: DOMAIN_BRAND
+              value: "#{domain_brand}#"
+            - name: DOMAIN_ONCALL
+              value: "#{domain_oncall}#"
+            - name: STAFF_API_URL
+              value: "#{staff_api_url}#"
+            - name: BRAND
+              value: "#{brand}#"
+            - name: ROUTE_AFTER_LOGIN
+              value: "#{route_after_login}#"
+            - name: SOCKET_URL
+              value: "#{socket_url}#"
+            - name: BASE_URL_SHARE_SERVICE
+              value: "#{base_url_share_service}#"
+            - name: URL_UPLOAD_MINIO
+              value: "#{url_upload_minio}#"
+            - name: FILESYSTEM_DRIVER
+              value: "#{filesystem_driver}#"
+            - name: FILESYSTEM_CLOUD
+              value: "#{filesystem_cloud}#"
+            - name: MINIO_ACCESS_KEY
+              value: "#{minio_access_key}#"
+            - name: MINIO_SECRET_KEY
+              value: "#{minio_secret_key}#"
+            - name: MINIO_ROOT_USER
+              value: "#{minio_root_user}#"
+            - name: MINIO_ROOT_PASSWORD
+              value: "#{minio_root_password}#"
+            - name: MINIO_REGION
+              value: "#{minio_region}#"
+            - name: MINIO_BUCKET
+              value: "#{minio_bucket}#"
+            - name: MINIO_ENDPOINT
+              value: "#{minio_endpoint}#"
+            - name: URL_UPLOAD_MINIO
+              value: "#{url_upload_minio}#"
+            - name: URL_MANAGE_FILE
+              value: "#{url_manage_file}#"
+            - name: PIOSPA_QUEUE_URL
+              value: "#{piospa_queue_url}#"
+            - name: FOLDER
+              value: "#{folder}#"
+            - name: STAFF_QUEUE_URL
+              value: "#{staff_queue_url}#"
+            - name: URL_MANAGE_FILE_PUBLIC
+              value: "#{url_manage_file_public}#"
+      imagePullSecrets:
+        - name: cr-auth
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: brandportal-fnb
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+  selector:
+    app: brandportal-fnb

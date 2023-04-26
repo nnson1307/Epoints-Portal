@@ -1,0 +1,105 @@
+.color_button_danger {
+    background-color: #FE4C4C !important;
+    color: #fff;
+    border-color: #FE4C4C !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    height: 40px;
+
+}
+
+.m-portlet__body .handler_button .color_button_danger {
+    margin-right: 46px;
+}
+
+.font_size-button {
+    font-size: 12px;
+}
+
+.m-portlet__head-text.tab {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #007177 !important;
+}
+
+.m-portlet__head-tools .btn_create {
+    font-size: 14px;
+}
+
+
+.bg .tr_thead_list {
+    color: #000000 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+
+.project__detail--info {
+    display: flex;
+    gap: 15px;
+}
+
+.project__detail--info .project__info--main {
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+.project__detail--info .project__info--main tr td:first-child {
+    color: black;
+    font-weight: 400;
+}
+
+.project__detail--info .project__info--user {
+    width: 35%;
+    padding: 30px;
+}
+
+.project__detail--info .project__info--user p {
+    color: black;
+    font-weight: 400;
+}
+
+
+
+.project__info--main table {
+    width: 100%;
+}
+
+.project__info--main table tr td:first-child {
+    width: 25%;
+}
+
+.project__info--main table tr {
+    height: 50px;
+    border-bottom: 1px solid #80808033;
+    border-top: none;
+}
+
+.project__info--main table tr:last-child {
+    border-bottom: none;
+}
+
+.project__info--main table tr .progress {
+    width: 40%;
+    height: 20px;
+}
+
+.project__info--main table tr td .status {
+    width: max-content;
+    margin: auto;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 50px;
+    margin: 0px;
+}
+
+.descrip-main__title {
+    color: #00000091;
+    font-size: 12px;
+
+}
+
+.color-primary__info {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}

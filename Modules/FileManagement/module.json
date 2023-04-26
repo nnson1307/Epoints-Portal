@@ -1,0 +1,14 @@
+{
+    "name": "FileManagement",
+    "alias": "filemanagement",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\FileManagement\\Providers\\FileManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,49 @@
+/*icon*/
+.icon { display: inline-block; vertical-align: middle;}
+.icon-home { width: 37px; height: 35px;  background: url(../images/icon.png) 0 0 no-repeat;     transition: all .3s ease;}
+.icon-calendar { width: 32px; height: 32px;  background: url(../images/icon.png) 0 -48px no-repeat;     transition: all .3s ease;}
+.icon-customer { width: 36px; height: 34px;  background: url(../images/icon.png) 0 -96px no-repeat;     transition: all .3s ease;}
+.icon-bill { width: 30px; height: 36px;  background: url(../images/icon.png) 0 -144px no-repeat;     transition: all .3s ease;}
+.icon-room { width: 38px; height: 38px;  background: url(../images/icon.png) 0 -192px no-repeat;     transition: all .3s ease;}
+.icon-staff { width: 54px; height: 30px;  background: url(../images/icon.png) 0 -240px no-repeat;     transition: all .3s ease;}
+.icon-plus {  width: 24px; height: 24px;  background: url(../images/icon.png) 0 -512px no-repeat;  display: inline-block;}
+.icon-bell {  width: 21px; height: 24px;  background: url(../images/icon.png) -64px -416px no-repeat;  display: inline-block; }
+.icon-out {  width: 20px; height: 21px;  background: url(../images/icon.png) -64px -384px no-repeat;  display: inline-block; }
+.icon-in {  width: 17px; height: 11px;  background: url(../images/icon.png) -64px -545px no-repeat;  display: inline-block; }
+.icon-recovered {  width: 27px; height: 27px;  background: url(../images/icon.png) 0 -570px no-repeat;  display: inline-block;}
+.icon-addCustomer { width: 28px; height: 28px;  background: url(../images/icon.png) 0 -540px no-repeat;  display: inline-block;}
+
+.icon-user { width: 27px; height: 26px;  background: url(../images/icon.png) -64px -288px no-repeat; }
+.icon-silver { width: 30px; height: 26px;  background: url(../images/icon.png) -64px -352px no-repeat; }
+
+.icon-user-s { width: 20px; height: 20px;  background: url(../images/icon.png) -0px -383px no-repeat;  vertical-align: middle; display: inline-block;}
+.icon-address-s { width: 20px; height: 20px;  background: url(../images/icon.png) -0px -660px no-repeat;  vertical-align: middle; display: inline-block;}
+.icon-phone-s { width: 20px; height: 20px;  background: url(../images/icon.png) -0px -690px no-repeat;  vertical-align: middle; display: inline-block;}
+.icon-wifi-s { width: 20px; height: 20px;  background: url(../images/icon.png) -0px -720px no-repeat;  vertical-align: middle; display: inline-block;}
+
+.icon-birthCake { width: 23px; height: 23px;  background: url(../images/icon.png) -90px -480px no-repeat;  vertical-align: bottom; display: inline-block; }
+.icon-mail-s { width: 23px; height: 16px;  background: url(../images/icon.png) -90px -510px no-repeat;  vertical-align: middle; display: inline-block; }
+.icon-gender { width: 23px; height: 30px;  background: url(../images/icon.png) -90px -540px no-repeat;  vertical-align: middle; display: inline-block; }
+.icon-zalo { width: 23px; height: 20px;  background: url(../images/icon.png) -90px -570px no-repeat;  vertical-align: middle; display: inline-block; }
+.icon-facebook { width: 23px; height: 21px;  background: url(../images/icon.png) -85px -600px no-repeat;  vertical-align: middle; display: inline-block; }
+.icon-image { width: 23px; height: 18px;  background: url(../images/icon.png) -90px -630px no-repeat;  vertical-align: middle; display: inline-block; }
+.icon-lich { width: 28px; height: 28px;  background: url(../images/icon.png) 0px -600px no-repeat;  vertical-align: middle; display: inline-block; }
+.icon-clock-w { width: 23px; height: 23px;  background: url(../images/icon.png) -64px -320px no-repeat;  vertical-align: middle; display: inline-block; }
+.icon-calendar-w {  width: 23px; height: 23px;  background: url(../images/icon.png) -96px -320px no-repeat;  vertical-align: middle; display: inline-block;  }
+.icon-date-s { width: 23px; height: 23px;  background: url(../images/icon.png) 0 -320px no-repeat;  vertical-align: top; display: inline-block; }
+.icon-update { width: 23px; height: 29px;  background: url(../images/icon.png) 0 -270px no-repeat;  vertical-align: top; display: inline-block; }
+
+.icon-Card { width: 30px; height: 26px;  background: url(../images/icon.png) -90px -1020px no-repeat;  vertical-align: middle!important; display: inline-block; }
+
+
+.icon-addImg { width: 30px; height: 23px;  background: url(../images/icon.png) -90px -390px no-repeat;  vertical-align: middle!important
+	; display: inline-block; }
+
+.active a .icon-home , a:hover .icon-home { width: 37px; height: 35px;  background: url(../images/icon.png) -64px 0 no-repeat; }
+.active a .icon-calendar , a:hover .icon-calendar { width: 32px; height: 32px;  background: url(../images/icon.png) -64px -48px no-repeat; }
+.active a .icon-customer , a:hover .icon-customer { width: 36px; height: 34px;  background: url(../images/icon.png) -64px -96px no-repeat; }
+.active a .icon-bill , a:hover .icon-bill { width: 30px; height: 36px;  background: url(../images/icon.png) -64px -144px no-repeat; }
+.active a .icon-room , a:hover .icon-room { width: 38px; height: 38px;  background: url(../images/icon.png) -64px -192px no-repeat; }
+.active a .icon-staff ,  a:hover .icon-staff { width: 54px; height: 30px;  background: url(../images/icon.png) -64px -240px no-repeat; }
+
+.btn-header:hover .icon-plus {  background-position: -30px -512px; }

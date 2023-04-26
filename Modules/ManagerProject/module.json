@@ -1,0 +1,17 @@
+{
+    "name": "ManagerProject",
+    "alias": "ManagerProject",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ManagerProject\\Providers\\ManagerProjectServiceProvider",
+        "Modules\\ManagerProject\\Providers\\RepositoryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
